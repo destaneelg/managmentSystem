@@ -18,4 +18,13 @@ CREATE TABLE role (
   department INTEGER NOT NULL,
   PRIMARY KEY(id)
 );
+-- Create the table employee.
+CREATE TABLE employee (
+  id int AUTO_INCREMENT,
+  firstName VARCHAR(30) NOT NULL,
+  lastName VARCHAR(30) NOT NULL,
+  roleId INTEGER NOT NULL,
+  managerId INTEGER NULL,
+  PRIMARY KEY(id)
+);
 
