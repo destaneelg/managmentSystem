@@ -10,3 +10,12 @@ CREATE TABLE department (
   name VARCHAR(30) NOT NULL,
   PRIMARY KEY(id)
 );
+-- Create the table role.
+CREATE TABLE role (
+  id INTEGER AUTO_INCREMENT,
+  title VARCHAR(30) NOT NULL,
+  salary DECIMAL NOT NULL,
+  department INTEGER NOT NULL,
+  PRIMARY KEY(id)
+);
+
