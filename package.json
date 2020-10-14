@@ -1,0 +1,21 @@
+{
+  "name": "managmentSystem",
+  "version": "1.0.0",
+  "description": "## User Story ``` Create a CMS to manage a comapanies employees.  ``` ## Website Functionality ``` GIVEN node.js is being ran from the command line,  WHEN the application is started  THEN WHEN THEN WHEN THEN ``` ## Obstacles faced during development ```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destaneelg/managmentSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/destaneelg/managmentSystem/issues"
+  },
+  "homepage": "https://github.com/destaneelg/managmentSystem#readme"
+}
