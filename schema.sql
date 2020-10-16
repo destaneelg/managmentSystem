@@ -6,25 +6,22 @@ USE managmentSystem;
 
 -- Create the table department.
 CREATE TABLE department (
-  id INTEGER AUTO_INCREMENT,
-  name VARCHAR(30) NOT NULL,
-  PRIMARY KEY(id)
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(30) NOT NULL
 );
 -- Create the table role.
 CREATE TABLE role (
-  id INTEGER AUTO_INCREMENT,
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(30) NOT NULL,
   salary DECIMAL NOT NULL,
-  department INTEGER NOT NULL,
-  PRIMARY KEY(id)
+  department INTEGER NOT NULL
 );
 -- Create the table employee.
 CREATE TABLE employee (
-  id int AUTO_INCREMENT,
+  id int PRIMARY KEY AUTO_INCREMENT,
   firstName VARCHAR(30) NOT NULL,
   lastName VARCHAR(30) NOT NULL,
   roleId INTEGER NOT NULL,
-  managerId INTEGER NULL,
-  PRIMARY KEY(id)
+  managerId INTEGER NULL
 );
 
