@@ -1,8 +1,7 @@
--- Create the database managmentSystem and specified it for use.
-DROP DATABASE IF EXISTS
-CREATE DATABASE managmentSystem;
+DROP DATABASE IF EXISTS managmentSystemDB;
+CREATE DATABASE managmentSystemDB;
 
-USE managmentSystem;
+USE managmentSystemDB;
 
 -- Create the table department.
 CREATE TABLE department (
@@ -24,4 +23,3 @@ CREATE TABLE employee (
   roleId INTEGER NOT NULL,
   managerId INTEGER NULL
 );
-
