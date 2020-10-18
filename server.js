@@ -59,12 +59,10 @@ function runSearch() {
   function seeAllEmployees() {
     console.log("Viewing employees\n");
   
-    connection.query(query, function (err, res) {
+    connection.query("SELECT * FROM employee", function (err, res) {
       if (err) throw err;
-  
       console.table(res);
       console.log("Employees viewed!\n");
-  
       runSearch();
     });
   }
